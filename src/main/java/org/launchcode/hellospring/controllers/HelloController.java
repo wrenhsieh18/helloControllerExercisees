@@ -72,8 +72,6 @@ public class HelloController {
 
     }
 
-
-
     @GetMapping("form/lang")
     public String helloFormByLang() {
         return "<html> " +
